@@ -1,0 +1,129 @@
+/* navbar-section */
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    font-size: 1.2rem;
+    box-shadow: #1f1f1f;
+}
+
+.navbar .logo {
+  margin-left: 35px;
+}
+
+.navbar-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnGroupOne a {
+  margin: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navbar-options i {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.navbar-options button{
+  margin-right: 20px;
+  height: 40px;
+  background-color: #E46F44;
+  width: min-content;
+  color: white;
+  padding: 0.3rem 2.3rem;
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: solid 3px transparent;
+  border-radius: 0rem;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* logo */
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+  font-style: normal;
+  color: #E46F44;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* card-section */
+
+.card {
+    background-color: #dde8f2;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.explore-button {
+  background-color: #E46F44;
+  width: fit-content;
+  color: white;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: solid 3px transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 60%;
+    width: 100%;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-container {
+  background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+
