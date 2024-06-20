@@ -1,2 +1,3 @@
 # Bharat-Bhraman
 My own innovative idea to boost the tour and travel industry in India. Provides all the solution that a user needs while travelling in India and make the world now the most beautiful place on earth.
+The user can provide its strarting location and his budget than he would select the theme like temples, gurudwaras, hill stations, historical sites and other and than choose the desired state he wants to visit. Based on these inputs the user will get and AI generated roadmap with all the temples details or the other theme he selects so that he can visit all the places in one shot rather than opting for the package by the toursist companies aand without paying for the guide.
